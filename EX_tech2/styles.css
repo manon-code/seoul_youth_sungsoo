@@ -1,0 +1,189 @@
+/* h1 {
+    font-size: 80px;
+}
+ */
+/* 
+header {
+    color: red;
+}
+
+header h1,
+footer h1 {
+    color: blue;
+}
+
+header p,
+footer p {
+    color: green;
+}
+ */
+
+/* 
+ h1 {
+     color: red;
+ }
+
+ #test1 {
+     color: blue
+ }
+
+ .test2 {
+     color: green;
+ }
+
+ input[type="text"] {
+    border: solid 10px blue;
+ }
+
+
+ input[type="password"] {
+     border: solid 10px blue;
+ }
+  */
+/* 
+  .bg-1 {
+      background-color: red;
+  }
+
+  .font-size-1 {
+      font-size: 50px;
+  }
+
+  #color-1 {
+      color: red;
+  }
+
+  #font-size-1 {
+      font-style: italic;
+  } */
+
+  /* #intro h2 {
+      color: red;
+  } */
+/* 
+  #color-2 {
+      color: pink;
+  }
+
+  h1 {
+      color: red;
+  }
+
+  .color-1 {
+      color: green
+  }
+
+  h1 {
+      color: blue;
+  } */
+/* 
+  #intro div h1 {
+      color: green;
+  }
+
+  #intro h1 {
+      color: blue;
+  }
+
+  headere h1 {
+      color: red;
+  } */
+/* 
+header {
+    width: 500px;
+} */
+/* 
+  div {
+      width: 300%;
+      height: 300px;
+
+      min-width: 300px;
+      max-width: 600px;
+      
+      border:10px red solid;
+
+      border-radius: 50px;
+
+      background-color: yellow;
+  
+      opacity: 0.5;
+    }
+
+  h1 {
+      color: gray;
+      font-size: 80px;
+      font-style: initial;
+      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Lato', sans-serif;
+
+      font-family: 'Montserrat', sans-serif;
+  
+      font-family: 'Noto Sans JP', sans-serif;
+  
+      font-family: 'Open Sans', sans-serif;
+  
+      font-family: 'Roboto', sans-serif;  
+   
+      font-weight: 300;
+    
+      text-decoration: line-through;   
+    
+      text-align: right;
+  
+      background-color: pink;
+    }
+
+    ul {
+        list-style: none;
+    } */
+
+/* 
+    a {
+        text-decoration: none;
+    } */
+/* 
+#bg {
+    width: 900px;
+    height: 900px;
+    background-color: yellow;
+    background-image: ;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}     */
+/* 
+a:link {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color: pink;
+}
+
+input:focus {
+    border: solid 10px red;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(2n + 1) {
+    color: gray;
+} */
+
+li:before {
+    content: '^^';
+}
+
+li:after {
+    content: '&&';
+}
