@@ -1,0 +1,82 @@
+html, body {
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* .pc {
+    display none을 사용해서 pc에서 보여줄지 모바일에서 보여줄지 선택할 수 있따.
+    color: red;
+    font-size: 50px;
+    background-color: pink;
+} */
+/* 
+.mobile {
+    display: none;
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+    .pc {
+        display: none;
+    }
+    /*none되어있던 display속성을 block로 바꿔준다.*/
+    /*
+    .mobile {
+        display: block;
+    }
+}
+ */
+
+/*
+    width 기준
+    320px ~ 768px 미만  : 스마트폰
+    768px ~ 1024px 미만 : 태블릿
+    1024px 이상 ~       : PC
+*/
+
+
+
+/* @media (min-width: 320px) and (max-width: 767px) {
+    .pc {
+        color: blue;
+        font-size: 20px;
+        background-color: yellow;
+    }
+} */
+
+/*orientation: landscape 가로모드 portrait 세로모드*/
+
+
+
+
+/* @media (min-width: 100px) and (max-width: 599px) {
+    .pc {
+        color: green;
+        font-size: 10px;
+        background-color: gray;
+    }
+} */
+
+h1 {
+    font-size: 20px;
+    background-color: yellow;
+}
+/*min-width만 쓰면 min-width만 기준이 됨. 바깥쪽이 모바일 버젼이 됨. */
+/*max-width 1024미만*/
+@media (min-width:768px) {
+    h1 {
+        font-size: 40px;
+        background-color: pink;
+    }
+}
+
+@media (min-width:1024px) {
+    h1 {
+        font-size: 80px;
+        background-color: gray ;
+    }
+}
