@@ -2,91 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="우리쌀 점토로 만든 키즈가오 웹사이트 소개">
+    <meta name="keywords" content="키즈가오, 점토, 장난감">
+    <meta name="author" content="키즈가오">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>키즈가오</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/mobile.css">
-    <style media="(min-width:300px) and (max-width: 700px)">
-
-        body {
-            background-color: red;
-        }
-    </style>
 </head>
 <body>
-    <!-- <h1 class="pc">Pc Hello World</h1>
-    <h1 class="mobile">Mobile Hello World</h1> -->
-    <!-- <h1>미디어 쿼리 응용</h1> -->
-    <!-- <ul class="media-menu">
-        <li><a href="">menu 1</a></li>
-        <li><a href="">menu 2</a></li>
-        <li><a href="">menu 3</a></li>
-    </ul> -->
+    <header id="intro">
+        <div class="introWrap">
+            <div class="logo"></div>
+            <div class="lion"></div>
+            <div class="rabbit"></div>
+            <div class="bear"></div>
+            <div class="monkey"></div>
+        </div>
+        
+        <div class="cloudWrap">
+            <div class="leftCloud"></div>
+            <div class="rightCloud"></div>
+            <div class="dragonfly"></div>
+        </div>
+    </header>
 
-    <!-- position fiex 사용하여 3차원 먼저나온 형제 공간이 3차원일 경우 그 다음 나오는 공간이 먼저 나온 형제의 뒤쪽으로 들어간다(레이아웃 겹침)-->
-    <!-- <header class="intro">
-        <h1>Logo</h1>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
-    </header> -->
-    <!-- 2차원 -->
-    <!-- <main role="main">
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-        <h1>Hello WorldHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello WorlHello Worl</h1>
-    </main> -->
-<!-- 
-    <div class="container">
-        <div class="column">
-            <img src="https://via.placeholder.com/250X150" alt="">
-            <div class="imge-info">
-                <h2>Title</h2>
-            </div>
+    <div id="farm1">
+        <div class="leftRice1"></div>
+        <div class="farmer"></div>
+        <div class="rightRice1"></div>
+        <div class="farmSpeechWrap">
+            <img src="img/farm/farm1/farmspeech.png" alt="우리쌀 점토">
+            <p class="farmSpeech">
+                식재료만 넣은 안전한<br>
+                우리쌀 점토 키즈가오는<br>
+                우리 쌀을 사용하여 만들어요.<br>
+                화학물질을 사용하지 않고,<br>
+                식재료를 사용해서 만든<br>
+                안전한 제품이랍니다.
+            </p>
         </div>
-        <div class="column">
-            <img src="https://via.placeholder.com/250X150" alt="">
-            <div class="imge-info">
-                <h2>Title</h2>
-            </div>
+    </div>
+
+    <div id="farm2">
+        <div class="leftRice2"></div>
+        <div class="scarecrow"></div> 
+        <div class="rightRice2"></div>  
+    </div>
+
+    <div id="farm3">
+
+        <div class="farm3Window"></div>
+
+        <div class="machineWrap">
+            <div class="machine1"></div>
+            <div class="sawShadow"></div>
+            <div class="saw1"></div>
+            <div class="saw2"></div>
+            <div class="machineBird"></div>
+            <div class="timer"></div>
         </div>
-        <div class="column">
-            <img src="https://via.placeholder.com/250X150" alt="">
-            <div class="imge-info">
-                <h2>Title</h2>
-            </div>
-        </div>
-        <div class="column">
-            <img src="https://via.placeholder.com/250X150" alt="">
-            <div class="imge-info">
-                <h2>Title</h2>
-            </div>
-        </div>
-        <div class="column">
-            <img src="https://via.placeholder.com/250X150" alt="">
-            <div class="imge-info">
-                <h2>Title</h2>
-            </div>
-        </div>
-        <div class="column">
-            <img src="https://via.placeholder.com/250X150" alt="">
-            <div class="imge-info">
-                <h2>Title</h2>
-            </div>
-        </div>
-    </div> -->
+
+        <img class="farm3Bubble" src="img/farm/farm3/farm3bubble.png" alt="기계를 통해서 쌀알이 딱딱한 껍질을 벗어 냅니다.">
+
+    </div>
 </body>
 </html>
+
