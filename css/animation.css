@@ -179,3 +179,35 @@
     from { transform: scale(1); }
     to { transform: scale(0.8); }
 }
+
+#night2 .moon {
+    animation: moveMoon linear 10s infinite;
+}
+
+@keyframes moveMoon {
+    from { margin-left: -135px; }
+    to { margin-left: 110%; }
+}
+
+#morning .sun {
+    animation: moveSun linear 10s 1500ms infinite;
+}
+
+@keyframes moveSun {
+    from { margin-left: -131px; }
+    to { margin-left: 110%; }
+}
+
+#kitchen .steamWrap .bubble1 {
+    animation-name: bubble1;
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: 0 0;
+}
+@keyframes bubble1 {
+    0% {transform:translate(0px, 0px)}
+    100% {transform:translate(-90px, -200px)}
+}
